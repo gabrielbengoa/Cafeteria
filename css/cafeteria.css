@@ -63,3 +63,24 @@ nav ul li a:hover {
   color: rgb(0, 0, 0);
   background-color: rgb(86, 65, 58);
 }
+
+/* Criação da formatação do rodapé(footer) */
+footer {
+  background-color: aquamarine;
+  text-align: center;
+  color: black;
+  font-family: "PT Sans", sans-serif;
+  padding-top: 20px;
+}
+
+div ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 30px;
+  padding-top: 25px;
+}
+div a {
+  color: red;
+  text-decoration: none;
+}
