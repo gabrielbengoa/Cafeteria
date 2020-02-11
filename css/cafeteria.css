@@ -84,3 +84,100 @@ div a {
   color: red;
   text-decoration: none;
 }
+
+main {
+  /* Vamos aplicar uma margem interna de 20px;
+ Utilizaremos o comando padding. */
+  padding: 15px;
+}
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(100, 0, 0);
+  font-size: 20pt;
+  border-bottom: 4px dotted rgb(100, 0, 0);
+  padding-left: 50px;
+  margin-left: 50px;
+  margin-right: 1000px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-family: "Merriweather", serif;
+  margin-left: 70px;
+  font-size: 15pt;
+  margin-bottom: 40px;
+  letter-spacing: 3px;
+}
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+  /* Aplicaremos um comando que aumenta a altura da linha. Esse
+  efeito simula o espaçamento entre linhas encontrado no Word.
+  O comando é line-height -> linha height */
+  line-height: 25px;
+  margin-bottom: 50px;
+  font-family: "PT Sans", sans-serif;
+}
+#home {
+  text-align: center;
+}
+#home img {
+  height: 500px;
+  width: 650px;
+  margin: 30px;
+  /* Vamos aplicar um efeito de transparência com o comando
+  opacity. Onde os valores 1 é totalmente visível e 0 é
+  totalmente transparente. */
+  opacity: 0.9;
+  border-radius: 30%;
+  transition: ease 0.5s;
+}
+#home img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  cursor: pointer;
+  transform: rotateX(360deg);
+  transition: ease 2s;
+}
+#acafeteria {
+  text-align: center;
+}
+#acafeteria img {
+  width: 600px;
+  height: 500px;
+}
+#video {
+  text-align: center;
+}
+
+/* Abaixo a formatação para a página cardápio */
+#container,
+#linha,
+#imagem,
+#texto {
+  /* border: 1px solid red; */
+}
+#container {
+  display: inline-block;
+}
+#linha {
+  display: table;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#imagem img {
+  width: 200px;
+  height: 200px;
+}
+#imagem {
+  width: 200px;
+  height: 200px;
+  /* Fazer a imagem flutuar para a esquerda */
+  float: left;
+}
+#texto {
+  padding: 20px;
+  width: 80%;
+  float: left;
+}
