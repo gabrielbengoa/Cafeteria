@@ -159,6 +159,7 @@ p {
 }
 #container {
   display: inline-block;
+  border-bottom: 3px solid silver;
 }
 #linha {
   display: table;
@@ -180,4 +181,19 @@ p {
   padding: 20px;
   width: 80%;
   float: left;
+}
+#container2 {
+  display: inline-block;
+  margin-top: 50px;
+  border-bottom: 3px solid silver;
+}
+#container3 {
+  display: inline-block;
+  margin-top: 50px;
+  border-bottom: 3px solid silver;
+}
+#container4 {
+  display: inline-block;
+  margin-top: 50px;
+  border-bottom: 3px solid silver;
 }
