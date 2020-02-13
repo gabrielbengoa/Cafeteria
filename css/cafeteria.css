@@ -197,3 +197,63 @@ p {
   margin-top: 50px;
   border-bottom: 3px solid silver;
 }
+form {
+  box-shadow: 0px 3px 50px gray;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+label {
+  /* Para dispor os elementos um abaixo do outro
+  utilizaremos o comando display-block */
+  display: block;
+  /* Aplicar negrito usamos o comando font-weight com o
+  valor bold */
+  font-weight: bold;
+  font-size: 12pt;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 0;
+  border-bottom: 1px solid black;
+  /* border-radius: 15px; */
+}
+input[type="tel"] {
+  width: 16%;
+}
+#sexo {
+  display: block;
+  margin-bottom: 15px;
+}
+select {
+  padding: 10px;
+  width: 20%;
+  margin-bottom: 15px;
+}
+select option:hover {
+  background-color: rgb(100, 0, 0);
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+textarea {
+  width: 60%;
+  height: 300px;
+  display: block;
+  margin-bottom: 15px;
+}
+input[type="submit"] {
+  display: block;
+  border: 0;
+  color: white;
+  padding: 5px;
+  background-color: rgb(100, 0, 0);
+  cursor: pointer;
+  margin-top: 15px;
+}
